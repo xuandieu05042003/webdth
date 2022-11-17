@@ -1,0 +1,103 @@
+/* Register modal */
+.auth-form{
+    width: 500px;
+    background-color: #fff;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.auth-from__container{
+    padding: 0 32px;
+}
+.auth-form__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.auth-form__heading{
+    font-size: 22px;
+    font-weight: 400;
+}
+.auth-form__swith-btn{
+    font-size: 16px;
+    font-weight: 500;
+    color: #cd1818;
+    cursor: pointer;
+}
+.auth-form__input{
+    width: 100%;
+    height: 30px;
+    margin-top: 12px;
+    padding: 0 1px;
+    font-size: 1rem;
+    border: 1px solid gray;
+    border-radius: 3px;
+    outline: none;
+}
+.auth-form__input:focus{
+    border-color: rgb(0, 0, 0);
+}
+.auth-form__aside{
+    margin-top: 20px;
+}
+.auth-form__policy-text{
+    font-size: 15px;
+    text-align: center;
+}
+.auth-form__text-link{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.auth-form__controls{
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+.auth-form__controls-back{
+    margin-right: 8px;
+}
+.auth-form__socials{
+    background-color: #f5f5f5;
+    padding: 12px 36px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.auth-form__socials-icon{
+    font-size: 20px;
+}
+.auth-form__socials--facebook{
+    color: #fff;
+    background-color: #3A5A98;
+}
+.auth-form__socials--facebook
+.auth-form__socials-icon{
+    color: #fff;
+}
+.auth-form__socials--tiltel{
+    margin: 0 20px;
+}
+.auth-form__socials--google{
+    background-color: #fff;
+}
+
+
+
+/* Quên mật khẩu */
+.auth-form__help{
+    display: flex;
+    justify-content: flex-end;
+}
+.auth-form__help-link{
+    font-size: 16px;
+    text-decoration: none;
+    color: #939393;
+}
+.auth-form__help-separate{
+    display: block;
+    height: 20px;
+    border-left: 1px solid #EAEAEA;
+    margin: 1px 28px 0;
+}
+.auth-form__help-forgot{
+    color: var(--primary-color);
+}
